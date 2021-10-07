@@ -1,0 +1,102 @@
+/* beyaz 8EEEEEE
+   koyu mavi 334257
+   koyumsu mavi 476072
+   açık mavi 548CA8
+*/
+.navbar {
+  background-color: #548CA8;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.input-field {
+  background-color: #548CA8;
+  width: 400px;
+  height: 450px;
+  border-radius: 20px;
+  box-shadow: 10px 10px #0F4C75;
+  margin-left: 15%;
+}
+
+.input-field form {
+  padding-left: 40px;
+  padding-top: 35px;
+}
+
+.row {
+  padding-top: 5%;
+}
+
+.info {
+  text-align: center;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+.ara-button {
+  margin-top: 20px;
+  background: #6ECB63;
+  border-radius: 11px;
+  box-shadow: 3px 3px #17a677;
+  padding: 10px 20px;
+  color: #ffffff;
+  display: inline-block;
+  font: normal bold 16px/1 "Open Sans", sans-serif;
+  text-align: center;
+  border: none;
+}
+
+i {
+  color: #548CA8;
+  font-size: 50px;
+}
+
+p {
+  margin-top: 20px;
+}
+
+.kaydol-button {
+  background: #6ECB63;
+  border-radius: 11px;
+  box-shadow: 3px 3px #17a677;
+  padding: 10px 20px;
+  color: #ffffff;
+  display: inline-block;
+  font: normal bold 16px/1 "Open Sans", sans-serif;
+  text-align: center;
+  border: none;
+}
+.kaydol-button:hover{
+  background: #7add6e;
+  box-shadow: 5px 5px #17a677;
+}
+.main-text{
+  margin-left: 20px;
+}
+.form-select{
+  width : 75%;
+}
+label,select{
+  padding: 5px 0;
+}
+
+@media (max-width: 992px) {
+  .input-field{
+    margin: auto;
+  }
+  .col-lg-6{
+    padding: 5% 0;
+  }
+  .info{
+    padding: 0;
+  }
+  #kaydol-section{
+    padding-top: 30px;
+  }
+  .row{
+    padding-top: 8%;
+  }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/8c31b21d82.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/styles.css">
+  <meta charset="UTF-8">
+  <title>Burs-ara.com</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">burs-ara.com</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="ms-auto navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Giriş Yap</a>
+          <a class="nav-link active" href="#">Kayıt Ol</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- ana kısım -->
+  <section id="main-section">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="main-text container-fluid">
+          <h1>Sana Uygun</h1>
+          <h1>Bursları Ara</h1>
+        </div>
+        <div class="info">
+          <div class="row">
+            <div class="col-lg-4 col-sm-6">
+              <i class="fas fa-keyboard"></i>
+              <p>Gerekli Bilgileri Gir</p>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <i class="fas fa-search"></i>
+              <p>Sana Uygun Bursları Bul</p>
+            </div>
+            <div id="kaydol-section" class="col-lg-4">
+              <i class="fas fa-user-friends"></i>
+              <p>Sana Özel Burslardan Haberdar Olmak İçin</p>
+              <button class="kaydol-button" type="button" name="button">Kaydol</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="input-field">
+          <form class="" action="index.html" method="post">
+            <label for="">Burs Durumu</label>
+            <br>
+            <select class="form-select" id="inputGroupSelect02">
+              <option selected>Burs Almıyorum</option>
+              <option value="1">KYK Dışı Burs Alıyorum</option>
+              <option value="2">KYK Bursu Alıyorum</option>
+            </select>
+            <label for="">Okul</label>
+            <br>
+            <select class="form-select" id="inputGroupSelect02">
+              <option selected>Boğaziçi Üniversitesi</option>
+              <option value="1">Dandik Üniversite</option>
+              <option value="2">Neco Tıp</option>
+            </select>
+            <label for="">Cinsiyet</label>
+            <br>
+            <select class="form-select" id="inputGroupSelect02">
+              <option selected>Erkek</option>
+              <option value="1">Kadın</option>
+              <option value="2">3. Seçenek Yok :)</option>
+            </select>
+            <label for="">Şehir</label>
+            <br>
+            <select class="form-select" id="inputGroupSelect02">
+              <option selected>Dervişler Şehri Konya</option>
+              <option value="1">İstanbul</option>
+              <option value="2">Bayburt</option>
+            </select>
+            <button class="ara-button" type="button" name="button">ARA</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </section>
+</body>
+
+</html>
