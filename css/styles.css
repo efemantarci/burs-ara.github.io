@@ -58,7 +58,7 @@ p {
   margin-top: 20px;
 }
 
-.kaydol-button {
+.kaydol-button, .login-button {
   background: #6ECB63;
   border-radius: 11px;
   box-shadow: 3px 3px #17a677;
@@ -69,34 +69,59 @@ p {
   text-align: center;
   border: none;
 }
-.kaydol-button:hover{
+
+.kaydol-button:hover , .login-button:hover{
   background: #7add6e;
   box-shadow: 5px 5px #17a677;
 }
-.main-text{
+
+.main-text {
   margin-left: 20px;
 }
-.form-select{
-  width : 75%;
+
+.form-select {
+  width: 75%;
 }
-label,select{
+
+label, select {
   padding: 5px 0;
 }
 
 @media (max-width: 992px) {
-  .input-field{
+  .input-field {
     margin: auto;
   }
-  .col-lg-6{
+
+  .col-lg-6 {
     padding: 5% 0;
   }
-  .info{
+
+  .info {
     padding: 0;
+    display: none;
   }
-  #kaydol-section{
+
+  #kaydol-section {
     padding-top: 30px;
   }
-  .row{
-    padding-top: 8%;
+
+  .row {
+    padding-top: 3%;
   }
+  h1{
+    font-size: 10rem;
+  }
+  i{
+    font-size: 150px;
+  }
+  p{
+    font-size: 2rem;
+  }
+  .input-field{
+    width: 800px;
+  }
+  .form-select {
+    width: 50%;
+  }
+
 }
